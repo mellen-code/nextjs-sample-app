@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0070f3;
   text-decoration: none;
 }
 
@@ -26,7 +26,11 @@ a {
   box-sizing: border-box;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 img {
   max-width: 100%;
-  height: auto;
+  display: block;
 }
