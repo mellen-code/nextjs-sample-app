@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
+import FirstPost from './posts/first-post';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
         <p> My first 
-          <a href='/pages/posts/first-post.js' > blog post.</a>
+          <a href='./posts/first-post' > blog post.</a>
         </p>
       </section>
     </Layout>
