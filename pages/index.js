@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import FirstPost from './posts/first-post';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 
@@ -45,8 +44,6 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-
-
       </section>
     </Layout>
   )
